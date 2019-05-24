@@ -1,0 +1,14 @@
+---
+---
+@import "main";
+@import "variables";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: $white;
+    font: 18px/1.4 $helveticaNeue;
+    color: $darkerGray;
+}

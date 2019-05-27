@@ -3,12 +3,23 @@
 @import "main";
 @import "variables";
 
+#name {
+    color: $incBlue;
+    display: inline;
+}
+
 html {
-    font-size: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 180%;
 }
 
 body {
-    background: $white;
-    font: 18px/1.4 $helveticaNeue;
-    color: $darkerGray;
-}
+    font-family: 'HelveticaNeueLight', Arial, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    position: relative;
+    top: 200px;
+} 
